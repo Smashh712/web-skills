@@ -38,7 +38,7 @@ export const A1 = {
 				},
 
 				{
-					name: "비트코",
+					name: "비트코인",
 					description: {
 						text: "어디서 살 지 결정하는 것은 중요합니다.",
 						links: [
