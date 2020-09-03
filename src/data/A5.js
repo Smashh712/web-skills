@@ -1,34 +1,43 @@
-export const buildtoolsCollection = {
-	name: "Build tools",
+export const A5 = {
+	name: "취미",
 	areas: [
 		{
 			skills: [
 				{
-					name: "Package Managers",
+					name: "거주",
 					description: {
-						text: "Learn about package managers and how they make managing dependencies easier.",
+						text: "어디서 살 지 결정하는 것은 중요합니다.",
 						links: [
-							["Freecodecamp - How JavaScript package managers work", "https://www.freecodecamp.org/news/javascript-package-managers-101-9afd926add0a/"],
-							["Guide to JavaScript frontend package managers", "https://www.javascriptstuff.com/javascript-frontend-package-managers/"],
+							["자취 vs 하숙 vs 기숙", "http://www.lgchallengers.com/campus/trend/20110915up/"],
 						]
 					},
 					skills: [
 						{
-							name: "NPM",
+							name: "자취방",
 							description: {
-								text: "Learn about NPM and how it can be used to manage dependencies.",
+								text: "혼자서 살기 위해 좋은 방을 구하는 방법을 알아봅시다.",
 								links: [
-									["npmjs - About npm", "https://docs.npmjs.com/about-npm/"],
-									["npmjs - Getting started", "https://docs.npmjs.com/getting-started/"],
-									["Introduction to npm and basic npm commands", "https://medium.com/beginners-guide-to-mobile-web-development/introduction-to-npm-and-basic-npm-commands-18aa16f69f6b"],
-									["An Absolute Beginner's Guide to Using npm", "https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/"],
+									["npmjs - About npm", "https://www.zigbang.com/"],
+									["npmjs - Getting started", "https://www.peterpanz.com/"],
+									["Introduction to npm and basic npm commands", "http://honjaguide.com/recommend"],
+									["An Absolute Beginner's Guide to Using npm", "https://blog.toss.im/2020/03/12/money/life/kimtoss-rentroom/"],
 								]
 							},
 						},
 						{
-							name: "Yarn",
+							name: "기숙사",
 							description: {
-								text: "Learn about Yarn and how it can be used to manage dependencies.",
+								text: "저렴한 가격으로 안전한 기숙사에서 생활하는 법을 알아봅시다.",
+								links: [
+									["Yarnpkg - Getting Started", "https://yarnpkg.com/en/docs/getting-started"],
+									["Facebook Engineering - Yarn", "https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/"],
+								]
+							},
+						},
+						{
+							name: "하숙",
+							description: {
+								text: "때로는 누군가가 관리하는 집에서 하숙하는 것도 나쁘지 않습니다. 하숙에 대해 알아봅시다.",
 								links: [
 									["Yarnpkg - Getting Started", "https://yarnpkg.com/en/docs/getting-started"],
 									["Facebook Engineering - Yarn", "https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/"],

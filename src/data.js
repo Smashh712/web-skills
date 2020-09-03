@@ -1,32 +1,25 @@
-import {fundamentalsCollection} from "./data/fundamentals.js";
-import {webcomponentsCollection} from "./data/web-components.js";
-import {accessibilityCollection} from "./data/accessibility.js";
-import {pwaCollection} from "./data/pwa.js";
-import {architectureCollection} from "./data/architecture-and-paradigmes.js";
-import {buildtoolsCollection} from "./data/build-tools.js";
-import {testingCollection} from "./data/testing.js";
-import {frameworksAndLibrariesCollection} from "./data/frameworks-and-libraries.js";
-import {modernCollection} from "./data/modern.js";
-import {teamCollaborationCollection} from "./data/team-collaboration.js";
-import {algorithmsCollection} from "./data/algorithms.js";
-import {designAndUXCollection} from "./data/design-and-ux.js";
-import {databasesCollection} from "./data/databases.js";
+import {A1} from "./data/A1.js";
+import {A2} from "./data/A2.js";
+import {A3} from "./data/A3.js";
+import {A4} from "./data/A4.js";
+import {A5} from "./data/A5.js";
+import {A6} from "./data/A6.js";
+
 
 /**
  * All available collections.
+A1 생존
+A2 학과생활
+A3 학사
+A4 취업 & 스펙
+A5 취미
+A6 코로나 19
  */
 export const collections = [
-	fundamentalsCollection,
-	accessibilityCollection,
-	webcomponentsCollection,
-	pwaCollection,
-	buildtoolsCollection,
-	frameworksAndLibrariesCollection,
-	testingCollection,
-	architectureCollection,
-	teamCollaborationCollection,
-	designAndUXCollection,
-	modernCollection,
-	algorithmsCollection,
-	databasesCollection,
+	A1,
+	A2,
+	A3,
+	A4,
+	A5,
+	A6
 ];
